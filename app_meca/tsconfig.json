@@ -1,0 +1,15 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "app/(auth-routes)/login.tsx",
+    "components/TextInput.jsx",
+    "components/icons/DeviceFill.jsx"
+  ]
+}
